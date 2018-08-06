@@ -1,0 +1,162 @@
+#mask{
+    width: 100%;
+    flex: 1;
+    background-color: white;
+    overflow: scroll;
+}
+#big-pic{
+    height: 300px;
+    width: 100%;
+    background-image: url(../img/风景.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#back{
+    height: 50px;
+    width: 100%;
+}
+#back-left{
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+    /*background-image: url(../img/图标/小于号.svg);*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+}
+#back-center{
+    flex: 1;
+}
+#back-right{
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+    background-image: url(../img/图标/照相机.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#small-pic{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-image: url(../img/头像/下载.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 30px;
+    bottom: -50px;
+    border: 2px solid #d7eaff;
+}
+#small-name{
+    height: 30px;
+    width: 45px;
+    position: absolute;
+    font-size: 20px;
+    color: #d7eaff;
+    right: 140px;
+    bottom: 10px;
+}
+.kongge{
+    height: 50px;
+}
+.friend{
+    width: 100%;
+}
+.friend-area{
+    width: 100%;
+    max-height: 500px;
+    display: flex;
+    border-bottom: 1px solid #323232;
+    padding: 5px 0px 5px 0px;
+}
+.friend-pic{
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.friend-word{
+    flex: 1;
+ }
+.friend-name{
+    height: 30px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+    color: #464f71;
+}
+.friend-text{
+    width: 95%;
+    font-size: 20px;
+    line-height: 30px;
+    word-break: break-all;
+}
+.friend-png{
+    margin: 5px;
+    max-width: 200px;
+    max-height: 200px;
+}
+.hour{
+    margin: 5px;
+    height: 30px;
+    width: 95%;
+}
+.hour-left{
+    height: 30px;
+    width: 60px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #a8a8a8;
+}
+.hour-center{
+    flex: 1;
+}
+.hour-right{
+    height: 20px;
+    width: 30px;
+    background-image: url(../img/图标/更多-3.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.zan{
+    padding-left: 5px;
+    width: 95%;
+    height: 30px;
+    font-size: 15px;
+    line-height: 30px;
+    word-break: break-all;
+    position: relative;
+    background-color: #cbcbcb;
+    border-bottom:1px solid #828282;
+}
+.san3{
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -5px;
+    left: 15px;
+    background-color: #cbcbcb;
+}
+.heart{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    background-image: url(../img/图标/心.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.t{
+    flex: 1;
+    height: 30px;
+    font-size: 13px;
+    line-height: 30px;
+    word-break: break-all;
+}

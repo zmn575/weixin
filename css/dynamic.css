@@ -1,0 +1,128 @@
+#dynamic{
+    width: 100%;
+    flex: 1;
+    background-color: white;
+    overflow: scroll;
+}
+#search-area{
+    height: 40px;
+    background-color: gainsboro;
+}
+#search{
+    height: 30px;
+    width: 96%;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow:  0px 0px 1px grey;
+    color: #8a8a8a;
+    font-size: 18px;
+    position: relative;
+    font-weight: 200;
+}
+#search-audio{
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    right: 2px;
+    top: 3px;
+    background-image: url(../img/图标/话筒.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .5;
+}
+.chat-item{
+    width: 100%;
+    height: 62px;
+    background-color: white;
+    /*margin: 0 auto;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: space-between;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.item-left{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    box-shadow: #8a8a8a;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.big-bubble{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    right: -4px;
+    top: -4px;
+    color: white;
+    font-size: 10px;
+}
+.item-right{
+    margin: 5px;
+    height: 50px;
+    flex: 1;
+
+}
+.content-top{
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.nickname{
+
+    height: 30px;
+    flex: 1;
+    color: black;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.time{
+    height: 30px;
+    width: 80px;
+    font-size: 12px;
+    color: #8a8a8a;
+    text-align: right;
+}
+.content-bottom{
+    display: flex;
+    justify-content: flex-end;
+}
+.content{
+    margin-left: 5px;
+    font-size: 14px;
+    color: #8a8a8a;
+    height: 20px;
+    flex: 1;
+    /*border: 1px solid black;*/
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+}
+.silence{
+    height: 20px;
+    width: 20px;
+    background-image: url(../img/图标/铃声-静音.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: .5;
+}
+.game{
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+}
+.game:link{
+    color: black;
+}
+.game:visited{
+    color: black;
+}

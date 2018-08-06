@@ -1,0 +1,51 @@
+#shuru{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-top: 1px solid #828282;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+#shuru-left{
+    width: 38px;
+    height: 38px;
+    margin-left: 5px;
+    background-image: url(../img/图标/yuyin.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#shuru-center{
+    height: 36px;
+    margin: 5px;
+    flex: 1;
+    font-size: 24px;
+}
+#shuru-right{
+    width: 90px;
+    height: 50px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#biaoqing{
+    width: 40px;
+    height: 40px;
+
+    background-image: url(../img/图标/表情-1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#jiahao{
+    width: 40px;
+    height: 40px;
+
+    background-image: url(../img/图标/加号-2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
